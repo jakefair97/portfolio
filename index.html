@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Jacob Fairweather</title>
 </head>
 
@@ -12,44 +13,55 @@
     <header>
         <h1>Jacob Fairweather</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <!--update reference link-->
-                    <a href="resume">Resume</a>
-                </li>
-            </ul>
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <!--update reference link-->
+            <a href="#">Resume</a>
         </nav>
     </header>
 
     <div class="hero">
-        <div class="subtitle"></div>
+        <img src="https://via.placeholder.com/200" alt="Headshot of Jacob Fairweather">
+        <div class="subtitle">Cool Subtitle Here</div>
     </div>
 
     <section id = "about-me" class="about-me">
-        <div class="title">About Me</div>
-        <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aut mollitia assumenda deserunt sint explicabo cumque voluptatem tempora accusamus beatae eius, quisquam, quidem ipsam. Minima veritatis officiis ex soluta omnis.</div>
+        <h2 class="title">About Me</h2>
+        <article class="content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aut mollitia assumenda deserunt sint explicabo cumque voluptatem tempora accusamus beatae eius, quisquam, quidem ipsam. Minima veritatis officiis ex soluta omnis.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ad repudiandae voluptatum consequuntur delectus debitis mollitia adipisci fugit impedit enim necessitatibus sit rerum hic aut, voluptatem laudantium totam qui eius.</p>
+        </article>
     </section>
 
     <section id="work" class="work">
-        <div class="title">Work</div>
-        <div class="content"></div>
+        <h2 class="title">Work</h2>
+        <article class="content">
+            <div class="main-project">
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/700x200"></a>
+            </div>
+            <div class="project">
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+            </div>
+            <div class="project">
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+            </div>
+            <div class="project">
+                <a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+            </div>
+        </article>
     </section>
 
     <section id="contact-me" class="contact-me">
-        <div class="title">Contact Me</div>
-        <div class="phone"><a href="tel:9034567964">(903)456-7964</a></div>
-        <div class="email"><a href="mailto:jacobfair97@gmail.com">jacobfair97@gmail.com</a></div>
-        <div class="github"> <a href="https://github.com/jakefair97">Github</a></div>
-        <div class="twitter"><a href="https://twitter.com/Jakefair97">Twitter</a></div>
+        <h2 class="title">Contact Me</h2>
+        <nav>
+            <div class="phone"><a href="tel:9034567964">(903) 456-7964</a></div>
+            <div class="email"><a href="mailto:jacobfair97@gmail.com">jacobfair97@gmail.com</a></div>
+            <div class="github"> <a href="https://github.com/jakefair97" target="_blank">Github</a></div>
+            <div class="twitter"><a href="https://twitter.com/Jakefair97" target="_blank">Twitter</a></div>            
+        </nav>
+
     </section>
 
 </body>
