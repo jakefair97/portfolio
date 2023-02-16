@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #caf0f8;
+    background-color: var(--light-blue);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -31,7 +31,7 @@ p {
 /* Header */
 
 header {
-    background-color: #03045e;
+    background-color: var(--dark-blue);
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -50,8 +50,8 @@ header nav {
 }
 
 header nav a{
-    color: #90E0EF;
-    border-bottom: 3px solid #90E0EF;
+    color: var(--light-blue-1);
+    border-bottom: 3px solid var(--light-blue-1);
     margin: 0 15px;
     text-decoration: none;
     font-size: 1.2em;
@@ -63,7 +63,7 @@ header nav a{
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-color: #0077B6;
+    background-color: var(--dark-blue-1);
     background-image: linear-gradient(136deg, var(--dark-blue-1), var(--blue));
     display: flex;
     justify-content: space-between;
@@ -99,12 +99,12 @@ section {
 
 .title {
     flex: 1;
-    color: #03045e;
+    color: var(--dark-blue);
     text-align: right;
     font-size: 50px;
     font-weight: 500;
     padding-right: 10px;
-    border-right: 5px solid #03045e;
+    border-right: 5px solid var(--dark-blue);
 }
 
 .content {
@@ -155,8 +155,8 @@ section {
 
 .main-project {
     grid-column: 1 / 3;
-    border: 3px solid #0077B6;
-    background-color: #0077B6;
+    border: 3px solid var(--dark-blue-1);
+    background-color: var(--dark-blue-1);
 }
 
 .main-project img{
@@ -167,8 +167,8 @@ section {
 /* Smaller project cards */
 
 .project {
-    border: 3px solid #0077B6;
-    background-color: #0077B6;
+    border: 3px solid var(--dark-blue-1);
+    background-color: var(--dark-blue-1);
 }
 
 .project img {
@@ -193,7 +193,7 @@ section {
 .contact-me nav a {
     text-decoration: none;
     color: var(--text-color);
-    border-bottom: 3px solid #03045e
+    border-bottom: 3px solid var(--dark-blue);
 }
 
 /* Responsive Design */
