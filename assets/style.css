@@ -126,7 +126,7 @@ section {
 
 .work .content {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     gap: 10px;
 }
@@ -146,6 +146,25 @@ section {
     color: var(--text-color);
 }
 
+.github-container-main {
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--text-background-color);
+    color: var(--text-color);
+    
+    
+}
+
+.github-container-main a {
+    display: inline;
+    color: var(--text-color)
+}
+
+.github-container-small {
+    background-color: var(--text-background-color);
+    font-size: 13px;
+}
+
 .title-container .sub {
     font-size: 12px;
 }
@@ -159,6 +178,7 @@ section {
 }
 
 .main-project img{
+    /* width: clamp(200px, 100%, 600px); */
     width: 100%;
     aspect-ratio: 5/3;
     object-fit: cover;
@@ -176,6 +196,16 @@ section {
     width: 100%;
     aspect-ratio: 3/2;
     object-fit: cover;
+}
+
+.project .title-container {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.project a {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 /* Contact me */
