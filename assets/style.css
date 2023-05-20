@@ -151,8 +151,6 @@ section {
     font-size: 18px;
     background-color: var(--text-background-color);
     color: var(--text-color);
-    
-    
 }
 
 .github-container-main a {
@@ -199,7 +197,7 @@ section {
 }
 
 .project .title-container {
-    font-size: 15px;
+    font-size: clamp(.5rem, -0.8750rem + 8.3333vw, 1rem);
     margin-bottom: 15px;
 }
 
