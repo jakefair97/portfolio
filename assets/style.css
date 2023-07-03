@@ -28,6 +28,10 @@ p {
     font-size: 20px;
 }
 
+.description {
+    color: white;
+}
+
 /* Header */
 
 header {
